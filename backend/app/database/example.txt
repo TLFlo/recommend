@@ -1,12 +1,10 @@
 users{
   "_id": "ObjectId",
 
-  "name": "Louise",
-
-  "email": "louise@example.com",
-
-  "password_hash": "...",
-
+  "google_sub": "...",
+    "email": "...",
+    "name": "...",
+    "is_active": true,
   "role": "user",
 
   "preferences": {
@@ -29,9 +27,6 @@ categories{
 
   "description": "Restaurants et établissements de restauration",
 
-  "icon": "restaurant",
-
-  "active": true
 }
 
 providers{

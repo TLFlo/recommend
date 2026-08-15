@@ -1,0 +1,68 @@
+bonjour nareo ireo le endpoint tedavina POST /auth/login
+
+POST /auth/logout
+
+GET /auth/me
+
+GET /auth/google
+
+GET /auth/google/callback
+
+GET /users/me
+
+PUT /users/me
+
+PATCH /users/me/password
+
+PATCH /users/me/avatar
+
+GET /services
+
+GET /services/{id}
+
+POST /services
+
+PUT /services/{id}
+
+PATCH /services/{id}
+
+DELETE /services/{id}
+
+GET /services/search
+
+GET /services/nearby
+
+GET /services/recommendations
+
+GET /categories
+
+GET /services/{id}/reviews
+
+POST /services/{id}/reviews
+
+PATCH /reviews/{id}
+
+DELETE /reviews/{id}
+
+POST /reviews/{id}/reply
+si tu veux la réponse du prestataire aux avis
+
+GET /users/me/favorites
+
+POST /services/{id}/favorite
+
+DELETE /services/{id}/favorite
+
+GET /notifications
+
+PATCH /notifications/{id}/read
+
+GET /dashboard/stats
+
+GET /dashboard/activity
+
+GET /dashboard/summary
+
+POST /contact/messages
+
+POST /uploads

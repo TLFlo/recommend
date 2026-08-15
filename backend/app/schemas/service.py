@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 
 
 class Price(BaseModel):
-    amount: float = Field(gt=0)
+    avg: float = Field(gt=0)
     currency: str = "MGA"
 
 
