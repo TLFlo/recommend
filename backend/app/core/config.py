@@ -6,7 +6,8 @@ class Settings(BaseSettings):
     MONGODB_DATABASE: str
     GOOGLE_CLIENT_ID: str
     GOOGLE_CLIENT_SECRET: str
-
+    API_KEY: str
+    
     class Config:
         env_file = ".env"
 

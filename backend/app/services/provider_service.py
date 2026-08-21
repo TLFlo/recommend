@@ -80,6 +80,7 @@ async def create_provider(
         service["rating"] = {
             "average": 0.0,
             "count": 0,
+            "sum": 0
         }
     
     return await provider_repo.create_provider(provider_data)

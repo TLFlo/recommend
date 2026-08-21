@@ -150,8 +150,6 @@ reviews{
 
   "provider_id": "ObjectId",
 
-  "service_id": "ObjectId",
-
   "user_id": "ObjectId",
 
   "rating": 5,
@@ -169,6 +167,7 @@ searches{
   "query": "fleuriste",
 
   "category_id": "fleuriste",
+  "service-id":
 
   "service": "bouquet de mariage",
 
